@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.certificatefabric.controller.MainController">
+        <TextField fx:id="changedFieldName" prefHeight="25.0" prefWidth="200.0" />
+        <Button fx:id="fileChooseButton" text="Dosya Seç" onAction="#fileChooserButtonAction" />
+        <Button fx:id="testBtn" text="Test" onAction="#testButtonAction" />
+        <Button fx:id="uploadPackageChoosenButton" text="Yüklenecek klasör seç" onAction="#uploadPackageChosenButtonAction" />
+        <TextArea fx:id="nameListTextArea" prefHeight="200.0" prefWidth="200.0" />
+
+</VBox>

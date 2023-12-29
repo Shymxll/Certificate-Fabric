@@ -5,6 +5,7 @@ module com.example.certificatefabric {
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
+    requires aspose.pdf;
 
     opens com.example.certificatefabric to javafx.fxml;
     exports com.example.certificatefabric;
